@@ -1,0 +1,123 @@
+body{
+	background-color:#f4f4f4;
+	padding: 0;
+	margin:0;
+	font: 15px/1.5 Arial,sans-serif;
+
+}
+.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+
+}
+header{
+	background: #524691;
+	color: #ffffff;
+	padding-top:10px;
+	border-bottom: orange 6px solid;
+	
+}
+
+header a {
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+header u1{
+	margin:0;
+	padding: 0;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 21px 0 21px;
+}
+header nav{
+	float: right;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+header #modern{
+	float:left;
+}
+header #modern h1{
+	margin: 0;
+}
+.circular_square{
+	border-radius: 50%;
+	display: block;
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	padding-left: 40%;
+	padding-right: 40%;
+
+}
+#allow{
+	padding-left: 27%;
+	padding-right: 23%;
+	color: white;
+	font: Luminari,fantasy;
+
+
+
+}
+header a:hover{
+	color: grey;
+	font-weight: initial;
+}
+#home_section{
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 2000px;
+    background-position-x: center; /* Add this line */
+    background-position-y: center;
+
+}
+#skills_section{
+	background-image: url('skill1.jpg');
+    background-size: 2000px;
+    background-position-x: center; 
+    background-position-y: center;
+
+}
+
+.textwrap{
+	float: left;
+	margin: 10px;
+
+}
+.textwrap2{
+	float: right;
+	margin: 10px;
+	
+}
+.textwrap3{
+	float: left;
+	margin: 10px;
+	
+}
+#Education{
+	background-image: url('edu1.jpg');
+	background-size: 2000px;
+    background-position-x: center; 
+    background-position-y: center;
+}
+.edu1{
+	color: white;
+
+}
+
+.headedu{
+	color: white ;
+	text-transform:capitalize;
+	text-shadow: rgb(black);
+	size: 30px;
+
+}
+html, body {width: 100vw; height: 100vh;}
+.edu2{
+	color: white;
+	padding-right: 20px;
+
